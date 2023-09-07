@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styling/main.css">
+    <title>Chatroom</title>
+</head>
+
+<body>
+    <div class="root">
+        <h1>Chat Room</h1>
+        <div class="chat-room">
+            <!-- another  -->
+            <!-- <div class="message-container sender-align">
+                <div class="message-box sender">
+                    <h3>Maxeto</h3>
+                    <p class="message">I love cakes</p>
+                    <p class="time">2:20pm</p>
+                </div>
+            </div> -->
+            <!-- another  -->
+            <!-- <div class="message-container">
+                <div class="message-box receiver">
+                    <h3>Maxeto</h3>
+                    <p class="message">I love cakes</p>
+                    <p class="time">2:20pm</p>
+                </div>
+            </div> -->
+
+
+        </div>
+
+        <form class="chat-form">
+            <input type="text" placeholder="Type something..." class="chat-input">
+
+            <button type="button" class="chat-btn">send</button>
+        </form>
+    </div>
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./scripts/chat.js"></script>
+</body>
+
+</html>

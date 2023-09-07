@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styling/main.css">
+    <title>Chat Room</title>
+</head>
+
+<body>
+    <div class="root">
+        <h1>Login Chatroom</h1>
+        <form class="auth-form">
+            <input type="text" placeholder="username" class="input" required>
+            <select name="courses" id="courses">
+                <option value="medicine">
+                    Medicine
+                </option>
+                <option value="law">
+                    Law
+                </option>
+                <option value="pharmacy">
+                    Pharmacy
+                </option>
+                <option value="engineering">
+                    Engineering
+                </option>
+                <option value="philosophy">
+                    Philosophy
+                </option>
+            </select>
+            <button type="button" class="auth-btn">submit</button>
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
